@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+  <!--<![endif]-->
+  <head>
+    <!--- basic page needs
+   ================================================== -->
+    <meta charset="utf-8" />
+    <title>Elevate</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- mobile specific metas
+   ================================================== -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- CSS
+   ================================================== -->
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/vendor.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <style>
+      .text-container {
+        overflow: hidden;
+        max-height: 98px; /* Set the maximum height of the container */
+        transition: max-height 0.5s ease; /* Add a smooth transition effect */
+      }
+
+      /* CSS */
+      button.text-button {
+        background: none;
+        border: none;
+        padding: 0;
+        font: inherit;
+        cursor: pointer;
+        color: black;
+        font-weight: bold;
+      }
+      /* CSS */
+    </style>
+
+    <!-- script
+   ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+	================================================== -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+  </head>
+
+  <body id="top">
+    <!-- header 
+   ================================================== -->
+    <header class="main-header">
+      <div class="logo">
+        <a href="index.html">Elevate</a>
+      </div>
+
+      <a class="menu-toggle" href="#"><span>Menu</span></a>
+    </header>
+
+    <!-- main navigation 
+   ================================================== -->
+    <nav id="menu-nav-wrap">
+      <h3>Navigation</h3>
+      <ul class="nav-list">
+        <li><a class="smoothscroll" href="#intro" title="">Home</a></li>
+        <li><a class="smoothscroll" href="#features" title="">Features</a></li>
+        <li><a class="smoothscroll" href="#infos" title="">Product Info</a></li>
+        <li><a class="smoothscroll" href="#stats" title="">Stats</a></li>
+        <li><a class="smoothscroll" href="#pricing" title="">Pricing</a></li>
+        <li>
+          <a class="smoothscroll" href="#testimonials" title="">Testimonials</a>
+        </li>
+        <li><a class="smoothscroll" href="#download" title="">Download</a></li>
+        <li>
+          <a class="smoothscroll" href="#subscribe" title="">Newsletter</a>
+        </li>
+      </ul>
+
+      <h3>We Recommend Dreamhost</h3>
+      <p class="sponsor-text">
+        Looking for an awesome and reliable webhosting? Try
+        <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">DreamHost</a
+        >. Get <span>$50 off</span> when you sign up with the promocode
+        <span>styleshout</span>.
+        <!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->
+      </p>
+
+      <div class="action">
+        <a
+          class="button"
+          href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"
+          >Sign Up Now</a
+        >
+      </div>
+    </nav>
+    <!-- /menu-nav-wrap -->
+
+    <!-- main content wrap
+   ================================================== -->
+    <div id="main-content-wrap">
+      <!-- main content wrap
+   	================================================== -->
+      <section id="intro">
+        <!-- <div class="shadow-overlay"></div> -->
+
+        <div class="row intro-content">
+          <div class="col-twelve">
+            <h3 class="animate-intro">Introducing LEM House Production</h3>
+
+            <h1 class="animate-intro" style="color: #ebea04">
+              Your POD solution for unique, high-quality products on diverse
+              e-commerce platforms.
+            </h1>
+
+            <img
+              src="images/app-screenshot-big.jpg"
+              alt=""
+              class="animate-intro"
+            />
+          </div>
+          <!-- /twelve -->
+        </div>
+        <!-- /row -->
+      </section>
+      <!-- /intro -->
+
+      <!-- features
+   	================================================== -->
+      <section id="features">
+        <div class="row section-intro group animate-this">
+          <div class="col-twelve with-bottom-line">
+            <h2 class="">PARTNERSHIP INVITATION</h2>
+
+            <p class="lead">
+              LEM Production House, established in June 2023, operates in the
+              rapidly growing field of design for printed products. With a focus
+              on Etsy, the e-commerce platform, LEM has gained consumer
+              recognition, achieving stable revenue and positive growth. The
+              company aims to serve and satisfy global customers through
+              continuous effort, innovation, and collaboration, particularly
+              targeting the preferences of consumers in the United States and
+              Europe, where online shopping for uniquely designed products is
+              prevalent.
+            </p>
+          </div>
+        </div>
+
+        <div class="row features-wrap">
+          <div class="features-list block-1-3 block-s-1-2 block-tab-full">
+            <div class="bgrid feature animate-this">
+              <span class="feature-count">01.</span>
+
+              <div class="feature-content">
+                <h3>Unveiling Our Vision for the Future</h3>
+                <div class="text-container" id="textContainer_1">
+                  <p>
+                    Becoming a leading design company, pioneering innovation and
+                    revolutionizing the Print on Demand (POD) industry. With
+                    relentless dedication and passion from every team member, we
+                    aim to create groundbreaking, impressive designs for export
+                    to major countries such as the United States and Europe.
+                    Meeting the essential needs of customers in large nations,
+                    we strive to establish ourselves as a forefront innovator in
+                    the POD sector.
+                  </p>
+                </div>
+                <button
+                  onclick="toggleText('toggleBtn_1', 'textContainer_1')"
+                  id="toggleBtn_1"
+                  class="text-button"
+                >
+                  Show More
+                </button>
+              </div>
+            </div>
+            <!-- /bgrid -->
+
+            <div class="bgrid feature animate-this">
+              <span class="feature-count">02.</span>
+
+              <div class="feature-content">
+                <h3>Mission</h3>
+                <div class="text-container" id="textContainer_2">
+                  <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                    quasi architecto beatae vitae dicta sunt explicabo. Nemo
+                    enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                    aut fugit.
+                  </p>
+                </div>
+                <button
+                  onclick="toggleText('toggleBtn_2', 'textContainer_2')"
+                  id="toggleBtn_2"
+                  class="text-button"
+                >
+                  Show More
+                </button>
+              </div>
+            </div>
+            <!-- /bgrid -->
+
+            <div class="bgrid feature animate-this">
+              <span class="feature-count">03.</span>
+
+              <div class="feature-content">
+                <h3>Core Values</h3>
+                <div class="text-container" id="textContainer_3">
+                  <p>
+                    Professionalism: With a vision to become a pioneering
+                    designer, leading in the POD (Print on Demand) sector, LEM's
+                    top priority is product quality and customer experience. By
+                    continuously updating customer preferences, fostering
+                    creativity, innovating designs, and enhancing customer
+                    service, LEM aims to meet market demands and strive for
+                    perfection every day.
+                  </p>
+                  <p>
+                    Dedication: At LEM, the customer is at the center
+                    (Customer-Centric). Every product designed at LEM is aimed
+                    at delivering satisfaction by actively listening, observing,
+                    and understanding customer desires, promptly addressing
+                    their needs. Each product delivered to customers is
+                    meticulously cared for by LEM, ensuring satisfaction for
+                    every customer.
+                  </p>
+                  <p>
+                    Innovation: Innovation is an essential trend in every aspect
+                    of life, especially in the fashion industry. Recognizing
+                    this, LEM places a high value on continuous innovation and
+                    creativity in all activities, committing to deliver superior
+                    design quality and peace of mind for customers.
+                  </p>
+                </div>
+                <button
+                  onclick="toggleText('toggleBtn_3', 'textContainer_3')"
+                  id="toggleBtn_3"
+                  class="text-button"
+                >
+                  Show More
+                </button>
+              </div>
+            </div>
+            <!-- /bgrid -->
+
+            <div class="bgrid feature animate-this">
+              <span class="feature-count">04.</span>
+
+              <div class="feature-content">
+                <h3>Action strategy</h3>
+                <div class="text-container" id="textContainer_4">
+                  <p>
+                    Build a strong LEM brand, aiming to become a leading entity
+                    in Vietnam for the design and export of fashion and handmade
+                    products. Enhance service quality and leverage the company's
+                    human resources effectively.
+                  </p>
+                  <p>
+                    CUSTOMIZE: Leading the way, our activities are always
+                    directed towards the target customer group, meeting market
+                    and industry preferences and trends.
+                  </p>
+                  <p>
+                    PARTNERSHIP: Building an online store network with a focus
+                    on long-term strategic partnerships based on trust and
+                    kindness to bring sustainable benefits for both parties.
+                  </p>
+                </div>
+                <button
+                  onclick="toggleText('toggleBtn_4', 'textContainer_4')"
+                  id="toggleBtn_4"
+                  class="text-button"
+                >
+                  Show More
+                </button>
+              </div>
+            </div>
+            <!-- /bgrid -->
+
+            <div class="bgrid feature animate-this">
+              <span class="feature-count">05.</span>
+
+              <div class="feature-content">
+                <h3>Strategic products</h3>
+                <div class="text-container" id="textContainer_5">
+                  <p>
+                    Designing and manufacturing fashion products based on
+                    individual requests and societal trends. Designing and
+                    crafting handmade decorative items.
+                  </p>
+                </div>
+                <button
+                  onclick="toggleText('toggleBtn_5', 'textContainer_5')"
+                  id="toggleBtn_5"
+                  class="text-button"
+                >
+                  Show More
+                </button>
+              </div>
+            </div>
+            <!-- /bgrid -->
+
+            <div class="bgrid feature animate-this">
+              <span class="feature-count">06.</span>
+
+              <div class="feature-content">
+                <h3>Distribution channels and market</h3>
+                <div class="text-container" id="textContainer_6">
+                  <p>
+                    Selling online on the Etsy e-commerce platform. Marketing in
+                    the United States, Australia, Canada, and Europe.
+                  </p>
+                </div>
+                <button
+                  onclick="toggleText('toggleBtn_6', 'textContainer_6')"
+                  id="toggleBtn_6"
+                  class="text-button"
+                >
+                  Show More
+                </button>
+              </div>
+            </div>
+            <!-- /bgrid -->
+          </div>
+          <!-- /features-list -->
+        </div>
+        <!-- /features-wrap -->
+      </section>
+      <!-- /features -->
+
+      <!-- infos
+   	================================================== -->
+      <section id="infos">
+        <div class="info-entry">
+          <div class="half-grey"></div>
+
+          <div class="row info-entry-content">
+            <div class="media-wrap">
+              <div class="media animate-this" data-animate="fadeInRight">
+                <img src="images/softteecustom.jpg" alt="" />
+              </div>
+            </div>
+
+            <div class="col-six text-part">
+              <h5 class="animate-this" data-animate="fadeInLeft">
+                Some Of Our Stores
+              </h5>
+              <h2 class="animate-this" data-animate="fadeInLeft">
+                SoftTeeCustom
+              </h2>
+
+              <p class="animate-this" data-animate="fadeInLeft">
+                Lorem ipsum Sunt adipisicing adipisicing esse exercitation
+                consequat sed irure commodo cupidatat aute ea adipisicing
+                consectetur nulla consequat irure consectetur veniam sit sit qui
+                reprehenderit officia sunt nulla elit nisi proident.
+              </p>
+
+              <a
+                href="https://www.etsy.com/shop/SoftTeeCustom?ref=shop_sugg_market"
+                class="button animate-this"
+                data-animate="fadeInLeft"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <!-- /info-entry-content -->
+        </div>
+        <!-- /info-entry -->
+
+        <div class="info-entry">
+          <div class="half-grey"></div>
+
+          <div class="row info-entry-content">
+            <div class="media-wrap">
+              <div class="media animate-this" data-animate="fadeInRight">
+                <img src="images/bendytrending.jpg" alt="" />
+              </div>
+            </div>
+
+            <div class="col-six text-part">
+              <h5 class="animate-this" data-animate="fadeInLeft">
+                Some Of Our Stores
+              </h5>
+              <h2 class="animate-this" data-animate="fadeInLeft">
+                BendyTrending
+              </h2>
+
+              <p class="animate-this" data-animate="fadeInLeft">
+                Lorem ipsum Sunt adipisicing adipisicing esse exercitation
+                consequat sed irure commodo cupidatat aute ea adipisicing
+                consectetur nulla consequat irure consectetur veniam sit sit qui
+                reprehenderit officia sunt nulla elit nisi proident.
+              </p>
+
+              <a
+                href="https://www.etsy.com/shop/BendyTrending?ref=shop_sugg_market"
+                class="button animate-this"
+                data-animate="fadeInLeft"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <!-- /info-entry-content -->
+        </div>
+        <!-- /info-entry -->
+      </section>
+      <!-- infos -->
+
+      <!-- stats
+   	================================================== -->
+      <section id="stats" class="count-up">
+        <div class="row">
+          <div class="col-twelve">
+            <div
+              class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list"
+            >
+              <div class="bgrid stat">
+                <div class="icon-part">
+                  <i class="icon-pencil-ruler"></i>
+                </div>
+
+                <h3 class="stat-count">110</h3>
+
+                <h5 class="stat-title">Awesome Projects</h5>
+              </div>
+              <!-- /stat -->
+
+              <div class="bgrid stat">
+                <div class="icon-part">
+                  <i class="icon-location-user"></i>
+                </div>
+
+                <h3 class="stat-count">9050</h3>
+
+                <h5 class="stat-title">Clients Served</h5>
+              </div>
+              <!-- /stat -->
+
+              <div class="bgrid stat">
+                <div class="icon-part">
+                  <i class="icon-rewards-medal-1"></i>
+                </div>
+
+                <h3 class="stat-count">210</h3>
+
+                <h5 class="stat-title">Awards Received</h5>
+              </div>
+              <!-- /stat -->
+
+              <div class="bgrid stat">
+                <div class="icon-part">
+                  <i class="icon-alien"></i>
+                </div>
+
+                <h3 class="stat-count">123</h3>
+
+                <h5 class="stat-title">Crazy Ideas</h5>
+              </div>
+              <!-- /stat -->
+
+              <div class="bgrid stat">
+                <div class="icon-part">
+                  <i class="icon-coffee-mug"></i>
+                </div>
+
+                <h3 class="stat-count">1500</h3>
+
+                <h5 class="stat-title">Coffee Cups</h5>
+              </div>
+              <!-- /stat -->
+
+              <div class="bgrid stat">
+                <div class="icon-part">
+                  <i class="icon-hourglass"></i>
+                </div>
+
+                <h3 class="stat-count">7200</h3>
+
+                <h5 class="stat-title">Hours</h5>
+              </div>
+              <!-- /stat -->
+            </div>
+            <!-- /stats-list -->
+          </div>
+          <!-- /twelve -->
+        </div>
+        <!-- /row -->
+      </section>
+      <!-- /stats -->
+
+      <!-- pricing
+   	================================================== -->
+      <section id="pricing">
+        <div class="row section-intro animate-this">
+          <div class="col-twelve with-bottom-line">
+            <h2>Collaboration Content</h2>
+
+            <p class="lead">
+              Building a Store System: In order to expand business development,
+              LEM and you will collaborate to establish a store on the Etsy
+              e-commerce platform. You will be the named owner of the online
+              shop within the brand-building and development initiative led by
+              LEM.
+            </p>
+          </div>
+        </div>
+        <div class="row section-intro animate-this">
+          <div class="col-twelve with-bottom-line">
+            <h2>To accomplish this, you will need to prepare</h2>
+          </div>
+        </div>
+        <div class="row pricing-content">
+          <div class="pricing-tables block-1-3 group">
+            <div class="bgrid animate-this">
+              <div class="price-block">
+                <div class="top-part">
+                  <h3 class="plan-title">Computer Or Laptop</h3>
+                </div>
+
+                <div class="bottom-part">
+                  <p>
+                    Computer with Windows, TeamViewer, or UltraView, and an
+                    internet connection. LEM suggests enhancing personal
+                    information security by setting passwords for crucial
+                    files.Using a dedicated computer for business purposes.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- /bgrid -->
+
+            <div class="bgrid animate-this">
+              <div class="price-block">
+                <div class="top-part">
+                  <h3 class="plan-title">Etsy account</h3>
+                </div>
+
+                <div class="bottom-part">
+                  <p>
+                    Registering an account on Etsy: LEM's IT team will assist
+                    you during the account creation process to avoid any errors.
+                    You will need to fill in personal information as required by
+                    Etsy, such as ID, PR, and bank account details.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- /bgrid -->
+
+            <div class="bgrid animate-this">
+              <div class="price-block">
+                <div class="top-part">
+                  <h3 class="plan-title">Email And Phone Number</h3>
+                </div>
+
+                <div class="bottom-part">
+                  <p>
+                    During business operations: As the store owner, you may
+                    receive emails or messages from Etsy's system or strangers.
+                    Stay calm and contact LEM's staff who are directly working
+                    with you for consultation on how to handle these
+                    communications.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- /bgrid -->
+          </div>
+          <!-- /pricing-tables -->
+        </div>
+        <!-- /pricing-content -->
+      </section>
+      <!-- Pricing -->
+
+      <!-- testimonials
+   	================================================== -->
+      <section id="testimonials">
+        <div class="row testimonial-content">
+          <div class="col-twelve">
+            <h2 class="h01 animate-this">
+              LEM WILL BE RESPONSIBLE FOR WHAT TASKS?
+            </h2>
+
+            <div id="testimonial-slider" class="flexslider animate-this">
+              <ul class="slides">
+                <li>
+                  <p>
+                    Arranging personnel to accompany you throughout the business
+                    operation, starting from the registration of the store on
+                    the e-commerce platform.
+                  </p>
+                  <!-- <p class="author-info">&mdash; Steve Jobs</p> -->
+                </li>
+                <li>
+                  <p>
+                    Preparing a team to manage the operations of the stores.
+                  </p>
+                  <!-- <p class="author-info">&mdash; Dieter Rams</p> -->
+                </li>
+                <li>
+                  <p>
+                    Developing PR and marketing plans for promoting store
+                    business.
+                  </p>
+                  <!-- <p class="author-info">&mdash; Jony Ive</p> -->
+                </li>
+                <li>
+                  <p>
+                    Collaborating with relevant parties in business production
+                    activities, such as printing, garment manufacturing, and
+                    shipping.
+                  </p>
+                  <!-- <p class="author-info">&mdash; Jony Ive</p> -->
+                </li>
+                <li>
+                  <p>
+                    Settling and fulfilling financial obligations with store
+                    owners.
+                  </p>
+                  <!-- <p class="author-info">&mdash; Jony Ive</p> -->
+                </li>
+              </ul>
+            </div>
+
+            <div class="flexslider-controls animate-this">
+              <ul class="flex-control-nav">
+                <li><img src="images/dot1.png" alt="" /></li>
+                <li><img src="images/dot1.png" alt="" /></li>
+                <li><img src="images/dot1.png" alt="" /></li>
+                <li><img src="images/dot1.png" alt="" /></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /testimonials -->
+
+      <!-- download
+   	================================================== -->
+      <section id="download">
+        <div class="overlay"></div>
+
+        <div class="row download-content">
+          <div class="col-twelve">
+            <div class="text-part">
+              <h2 class="animate-this">Collaboration Methods</h2>
+
+              <p class="lead animate-this">
+                Business Cooperation Contract (BCC) is a collaboration agreement
+                signed between LEM and partners to engage in business
+                cooperation, profit-sharing based on agreed terms without
+                establishing an economic organization.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /download -->
+
+      <section id="download">
+        <div class="overlay"></div>
+
+        <div class="row download-content">
+          <div class="col-twelve">
+            <div class="text-part">
+              <h2 class="animate-this">COMMON CRITERIA</h2>
+
+              <p class="lead animate-this">Cooperation based on mutual trust and respect.</p>
+              <p class="lead animate-this">
+                Maintain connections and communication for updating relevant
+                information.
+              </p>
+              <p class="lead animate-this">
+                Prioritize tasks, always focusing on the common goal:
+                Sustainable business development and compassionate living.
+              </p>
+              <p class="lead animate-this">Adherence to agreed-upon financial rules.</p>
+              <p class="lead animate-this">
+                Settling and fulfilling financial obligations with store
+                owners.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- subscribe
+   	================================================== -->
+
+      <!-- /subscribe -->
+    </div>
+    <!-- /main-content-wrap -->
+
+    <!-- footer
+	================================================== -->
+    <footer id="main-footer">
+      <div class="footer-social-wrap">
+        <div class="row">
+          <ul class="footer-social-list">
+            <li>
+              <a href="#">
+                <i class="fa fa-facebook-square"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-google-plus"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-pinterest"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-dribbble"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- /footer-social-wrap -->
+
+      <div class="footer-info-wrap">
+        <div class="row footer-info">
+          <div class="col-four tab-full">
+            <h4><i class="icon-location-map-1"></i> Where to Find Us</h4>
+
+            <p>
+              1600 Amphitheatre Parkway<br />
+              Mountain View, CA<br />
+              94043 US
+            </p>
+          </div>
+
+          <div class="col-four tab-full collapse">
+            <h4><i class="icon-phone-incoming"></i> Get In Touch</h4>
+
+            <p>
+              someone@elevatewebsite.com<br />
+              info@elevatewebsite.com <br />
+              Phone: (+63) 555 1212
+            </p>
+          </div>
+
+          <div class="col-four tab-full">
+            <h4><i class="icon-organization-hierarchy-3"></i> Company Links</h4>
+
+            <ul class="footer-link-list">
+              <li><a href="#">Company Journal</a></li>
+              <li><a href="#">Product Support</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- /footer-info-wrap -->
+
+      <div class="footer-bottom">
+        <div class="copyright">
+          <span>© Copyright Elevate 2016.</span>
+          <span
+            >Design by <a href="http://www.styleshout.com/">styleshout</a></span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <div id="go-top">
+      <a class="smoothscroll" title="Back to Top" href="#top"
+        ><i class="fa fa-long-arrow-up"></i
+      ></a>
+    </div>
+
+    <!-- preloader
+   ================================================== -->
+    <div id="preloader">
+      <div id="loader"></div>
+    </div>
+
+    <!-- Java Script
+   ================================================== -->
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      function toggleText(agr_1, agr_2) {
+        var textContainer = document.getElementById(agr_2);
+        var toggleBtn = document.getElementById(agr_1);
+
+        if (textContainer.style.maxHeight) {
+          textContainer.style.maxHeight = null;
+          toggleBtn.textContent = "Show More";
+        } else {
+          textContainer.style.maxHeight = textContainer.scrollHeight + "px";
+          toggleBtn.textContent = "Show Less";
+        }
+      }
+    </script>
+  </body>
+</html>
